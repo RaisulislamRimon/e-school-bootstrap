@@ -39,58 +39,60 @@
     <!-- header nav-menu section start -->
     <header class="container">
       <!-- nav-menu section start -->
-      <section class="navbar-menu">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">E-School Bootstrap</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Deals</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Success</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Register</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
+      <section>
+        <div class="navbar-menu">
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">E-School Bootstrap</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Deals</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Success</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </section>
       <!-- nav-menu section end -->
 
@@ -193,13 +195,15 @@
     <main>
       <!-- course section start -->
       <section class="course-section container">
-        <div>
-          <h2>Discover Our Popular Courses</h2>
-          <p>
+        <!-- course header -->
+        <div class="w-50 text-center mx-auto my-5">
+          <h1 class="fw-bold text-center mb-3">Discover Our Popular Courses</h1>
+          <p class="text-muted">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
         </div>
+
         <!-- course list -->
         <!-- 1st row of course list -->
         <div class="row">
@@ -286,7 +290,9 @@
           </div>
         </div>
         <!-- see more courses btn -->
-        <button class="btn btn-primary">See More Courses</button>
+        <div class="text-center my-5">
+          <button class="btn btn-primary">See More Courses</button>
+        </div>
       </section>
       <!-- course section end -->
 
@@ -297,8 +303,11 @@
             <div class="col-lg-9 p-4">
               <h2 class="fw-bold mb-3">Ready to Join?</h2>
               <p class="w-75">
-                <small>It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.</small>
+                <small
+                  >It is a long established fact that a reader will be
+                  distracted by the readable content of a page when looking at
+                  its layout.</small
+                >
               </p>
             </div>
             <div class="col-lg-3 d-flex align-items-center">
@@ -327,18 +336,18 @@
             <!-- 1st question -->
             <div class="accordion-item my-3">
               <div class="border rounded">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button
-                  class="accordion-button collapsed fw-bold"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseOne"
-                >
-                  What is CSS framework ?
-                </button>
-              </h2>
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    What is CSS framework ?
+                  </button>
+                </h2>
               </div>
               <div
                 id="flush-collapseOne"
@@ -361,18 +370,18 @@
             <!-- 2nd question -->
             <div class="accordion-item my-3">
               <div class="border rounded">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button
-                  class="accordion-button collapsed fw-bold"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseTwo"
-                >
-                  What are the differences between bootstrap and tailwindCSS ?
-                </button>
-              </h2>
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    What are the differences between bootstrap and tailwindCSS ?
+                  </button>
+                </h2>
               </div>
               <div
                 id="flush-collapseTwo"
@@ -395,18 +404,18 @@
             <!-- 3rd question -->
             <div class="accordion-item my-3">
               <div class="border rounded">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button
-                  class="accordion-button collapsed fw-bold"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseThree"
-                >
-                  What is a semantic tag ?
-                </button>
-              </h2>
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    What is a semantic tag ?
+                  </button>
+                </h2>
               </div>
               <div
                 id="flush-collapseThree"
@@ -432,57 +441,62 @@
             <!-- 4th question -->
             <div class="accordion-item my-3">
               <div class="border rounded">
-              <h2 class="accordion-header" id="flush-headingFour">
-                <button
-                  class="accordion-button collapsed fw-bold"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseFour"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseFour"
-                >
-                  What is CSS box model ?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseFour"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingFour"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body text-muted">
-                  In CSS, the term "box model" is used when talking about design
-                  and layout. The CSS box model is essentially a box that wraps
-                  around every HTML element. It consists of: margins, borders,
-                  padding, and the actual content.
-                </div>
-              </div>
-            </div>
-            <!-- 5th question -->
-            <div class="accordion-item my-3">
-              <div class="border rounded">
-                <h2 class="accordion-header" id="flush-headingFive">
+                <h2 class="accordion-header" id="flush-headingFour">
                   <button
                     class="accordion-button collapsed fw-bold"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFive"
+                    data-bs-target="#flush-collapseFour"
                     aria-expanded="false"
-                    aria-controls="flush-collapseFive"
+                    aria-controls="flush-collapseFour"
                   >
-                  What are the differences between flexbox and grid ?
+                    What is CSS box model ?
                   </button>
                 </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body text-muted">
+                    In CSS, the term "box model" is used when talking about
+                    design and layout. The CSS box model is essentially a box
+                    that wraps around every HTML element. It consists of:
+                    margins, borders, padding, and the actual content.
+                  </div>
+                </div>
               </div>
-              <div
-                id="flush-collapseFive"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-headingFive"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div class="accordion-body text-muted">
-                  CSS Grid presents a larger canvas, while Flexbox offers minute functionality that operates in a restricted space. The grids have been designed for a two-dimensional organization. <br>
-                  The approach of CSS Grid is the layout first, while the Flexbox approach is primarily the content.
+              <!-- 5th question -->
+              <div class="accordion-item my-3">
+                <div class="border rounded">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFive"
+                    >
+                      What are the differences between flexbox and grid ?
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body text-muted">
+                    CSS Grid presents a larger canvas, while Flexbox offers
+                    minute functionality that operates in a restricted space.
+                    The grids have been designed for a two-dimensional
+                    organization. <br />
+                    The approach of CSS Grid is the layout first, while the
+                    Flexbox approach is primarily the content.
+                  </div>
                 </div>
               </div>
             </div>
